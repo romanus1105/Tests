@@ -120,5 +120,5 @@ def main(list_of_libraries, shelfs_id):
         elif what_to_do == 'q':
             break
 
-
-main(documents, directories)
+if __name__ == '__main__':
+    main(documents, directories)
